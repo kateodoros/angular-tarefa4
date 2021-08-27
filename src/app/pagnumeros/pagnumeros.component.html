@@ -1,0 +1,9 @@
+<div class="container-fluid">
+<h1>Números aleatórios</h1>
+<button click = "getNumerosTable()">Gerar Número</button>
+<table>
+<tr *ngFor="let item of getNumerosTable(); index as i">
+<td>{{item}}</td>
+</tr>
+</table>
+</div>
